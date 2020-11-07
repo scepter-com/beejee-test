@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="8ce2699a-d8ba-423c-b38f-1255be66a9a9" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1js4OgVUqSPDrTj27zCXIs0B4fp" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="php.override.implement.member.chooser.php.doc" value="NONE" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.PHP" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="8ce2699a-d8ba-423c-b38f-1255be66a9a9" name="Default Changelist" comment="" />
+      <created>1604579436166</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1604579436166</updated>
+      <workItem from="1604579437671" duration="1703000" />
+      <workItem from="1604591143914" duration="2948000" />
+      <workItem from="1604611220191" duration="275000" />
+      <workItem from="1604660385968" duration="746000" />
+      <workItem from="1604678518164" duration="12359000" />
+      <workItem from="1604743354295" duration="7387000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="1644" y="411" key="#com.intellij.ide.util.MemberChooser" timestamp="1604760119490">
+      <screen x="0" y="23" width="2560" height="1344" />
+    </state>
+    <state x="1644" y="411" key="#com.intellij.ide.util.MemberChooser/0.23.2560.1344@0.23.2560.1344" timestamp="1604760119490" />
+    <state x="1563" y="428" key="NewPhpClassDialog" timestamp="1604760187486">
+      <screen x="0" y="23" width="2560" height="1344" />
+    </state>
+    <state x="1563" y="428" key="NewPhpClassDialog/0.23.2560.1344@0.23.2560.1344" timestamp="1604760187486" />
+    <state x="1677" y="625" key="NewPhpFileDialog" timestamp="1604704670150">
+      <screen x="0" y="23" width="2560" height="1344" />
+    </state>
+    <state x="1677" y="625" key="NewPhpFileDialog/0.23.2560.1344@0.23.2560.1344" timestamp="1604704670150" />
+    <state x="709" y="417" key="SettingsEditor" timestamp="1604709922080">
+      <screen x="0" y="23" width="2560" height="1344" />
+    </state>
+    <state x="709" y="417" key="SettingsEditor/0.23.2560.1344@0.23.2560.1344" timestamp="1604709922080" />
+    <state x="1523" y="330" width="670" height="676" key="search.everywhere.popup" timestamp="1604591982567">
+      <screen x="0" y="23" width="2560" height="1344" />
+    </state>
+    <state x="1523" y="330" width="670" height="676" key="search.everywhere.popup/0.23.2560.1344@0.23.2560.1344" timestamp="1604591982567" />
+  </component>
+</project>
