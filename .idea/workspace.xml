@@ -3,8 +3,55 @@
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:bj-test" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="8ce2699a-d8ba-423c-b38f-1255be66a9a9" name="Default Changelist" comment="" />
+    <list default="true" id="8ce2699a-d8ba-423c-b38f-1255be66a9a9" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Application/Authentication/Gate.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Application/Configurator.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Application/Context.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Application/Controllers/AdminController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Application/DataBase/DataBase.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Application/DataBase/PaginatorContainer.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Application/DataBase/exapmle_db_config.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Application/Debug.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Application/Models/AdminModel.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Application/Models/HomeModel.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Application/Models/Model.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Application/View.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Application/config.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Resources/public/js/XHRManager.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Resources/public/js/jquery.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Resources/views/error.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Resources/views/home.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Resources/views/login.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/Controllers/Controller.php" beforeDir="false" afterPath="$PROJECT_DIR$/Application/Controllers/Controller.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/Controllers/Error.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/Controllers/HomeController.php" beforeDir="false" afterPath="$PROJECT_DIR$/Application/Controllers/HomeController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/Controllers/IController.php" beforeDir="false" afterPath="$PROJECT_DIR$/Application/Controllers/IController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/Router.php" beforeDir="false" afterPath="$PROJECT_DIR$/Application/Router.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Resources/layouts/default_layout.php" beforeDir="false" afterPath="$PROJECT_DIR$/Resources/layouts/default_layout.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Resources/public/css/app.css" beforeDir="false" afterPath="$PROJECT_DIR$/Resources/public/css/app.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -17,8 +64,12 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="CSS File" />
+        <option value="JavaScript File" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1js4OgVUqSPDrTj27zCXIs0B4fp" />
   <component name="ProjectViewState">
@@ -33,6 +84,11 @@
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.PHP" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Application" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -46,33 +102,59 @@
       <workItem from="1604611220191" duration="275000" />
       <workItem from="1604660385968" duration="746000" />
       <workItem from="1604678518164" duration="12359000" />
-      <workItem from="1604743354295" duration="7387000" />
+      <workItem from="1604743354295" duration="12777000" />
+      <workItem from="1604771420621" duration="13600000" />
+      <workItem from="1604873578058" duration="630000" />
+      <workItem from="1604914390142" duration="33697000" />
+      <workItem from="1605005370505" duration="8976000" />
+      <workItem from="1605024195801" duration="39862000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
   <component name="WindowStateProjectService">
-    <state x="1644" y="411" key="#com.intellij.ide.util.MemberChooser" timestamp="1604760119490">
+    <state x="1644" y="411" key="#com.intellij.ide.util.MemberChooser" timestamp="1605052424595">
       <screen x="0" y="23" width="2560" height="1344" />
     </state>
-    <state x="1644" y="411" key="#com.intellij.ide.util.MemberChooser/0.23.2560.1344@0.23.2560.1344" timestamp="1604760119490" />
-    <state x="1563" y="428" key="NewPhpClassDialog" timestamp="1604760187486">
+    <state x="1644" y="411" key="#com.intellij.ide.util.MemberChooser/0.23.2560.1344@0.23.2560.1344" timestamp="1605052424595" />
+    <state x="1601" y="23" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1604937251050">
       <screen x="0" y="23" width="2560" height="1344" />
     </state>
-    <state x="1563" y="428" key="NewPhpClassDialog/0.23.2560.1344@0.23.2560.1344" timestamp="1604760187486" />
-    <state x="1677" y="625" key="NewPhpFileDialog" timestamp="1604704670150">
+    <state x="1601" y="23" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.23.2560.1344@0.23.2560.1344" timestamp="1604937251050" />
+    <state x="1573" y="457" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1605044020996">
       <screen x="0" y="23" width="2560" height="1344" />
     </state>
-    <state x="1677" y="625" key="NewPhpFileDialog/0.23.2560.1344@0.23.2560.1344" timestamp="1604704670150" />
-    <state x="709" y="417" key="SettingsEditor" timestamp="1604709922080">
+    <state x="1573" y="457" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.23.2560.1344@0.23.2560.1344" timestamp="1605044020996" />
+    <state x="1563" y="428" key="NewPhpClassDialog" timestamp="1605047020269">
       <screen x="0" y="23" width="2560" height="1344" />
     </state>
-    <state x="709" y="417" key="SettingsEditor/0.23.2560.1344@0.23.2560.1344" timestamp="1604709922080" />
-    <state x="1523" y="330" width="670" height="676" key="search.everywhere.popup" timestamp="1604591982567">
+    <state x="1563" y="428" key="NewPhpClassDialog/0.23.2560.1344@0.23.2560.1344" timestamp="1605047020269" />
+    <state x="1563" y="428" key="NewPhpClassDialog/0.23.2560.1345@0.23.2560.1345" timestamp="1604949037463" />
+    <state x="1677" y="625" key="NewPhpFileDialog" timestamp="1605062313485">
       <screen x="0" y="23" width="2560" height="1344" />
     </state>
-    <state x="1523" y="330" width="670" height="676" key="search.everywhere.popup/0.23.2560.1344@0.23.2560.1344" timestamp="1604591982567" />
+    <state x="1677" y="625" key="NewPhpFileDialog/0.23.2560.1344@0.23.2560.1344" timestamp="1605062313485" />
+    <state x="709" y="417" key="SettingsEditor" timestamp="1604788211291">
+      <screen x="0" y="23" width="2560" height="1344" />
+    </state>
+    <state x="709" y="417" key="SettingsEditor/0.23.2560.1344@0.23.2560.1344" timestamp="1604788211291" />
+    <state x="1523" y="330" width="670" height="676" key="search.everywhere.popup" timestamp="1605045924527">
+      <screen x="0" y="23" width="2560" height="1344" />
+    </state>
+    <state x="1523" y="330" width="670" height="676" key="search.everywhere.popup/0.23.2560.1344@0.23.2560.1344" timestamp="1605045924527" />
   </component>
 </project>

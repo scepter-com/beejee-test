@@ -1,0 +1,44 @@
+
+
+111
+
+
+
+111
+111
+111
+111
+
+
+
+
+Array
+Array
+Array
+
+
+
+
+var_dump($data) 
+
+
+ghj
+5656
+#user##@gfdgd.com#In access should not be granted. November 10, 2020, 4:06 p#user##@gfdgd.com#In access should not be granted. November 10, 2020, 4:08 pmuser1user2user3
+November 10, 2020, 4:11 pmuser1user2user3
+November 10, 2020, 4:12 pmuser12useruser3November 10, 2020, 4:13 pmuser2user3user4
+November 10, 2020, 4:13 pmuser2user3user4
+November 10, 2020, 4:14 pmfdfg5647333333November 10, 2020, 6:47 pm7879ertert333333November 10, 2020, 6:51 pm555777868956sdfgdfhdfhdfNovember 10, 2020, 7:12 pm555777868956sdfgdfhdfhdfNovember 10, 2020, 7:12 pm555777868956@gmail.comsdfgdfhdfhdfNovember 10, 2020, 7:13 pmughfdghdfdfghfhgNovember 10, 2020, 7:16 pmughfdghdfdfghfhgNovember 10, 2020, 7:16 pmfsdagdsfgfsgsfgsgNovember 10, 2020, 7:17 pm47867y5u6iuhbcvbbnNovember 10, 2020, 7:20 pmINSERT INTO tasks (id, username) VALUES (NULL, 47867)
+47867bvbngy5u6iuhbcvbbnNovember 10, 2020, 7:22 pmINSERT INTO tasks (id, username) VALUES (NULL, 47867bvbng)
+dghgffdghfddhdNovember 10, 2020, 7:23 pmINSERT INTO tasks (id, username) VALUES (NULL, 'dghgf')
+111122224533333November 10, 2020, 7:39 pmINSERT INTO tasks (id, username, email, task, fulfilled_status, created_at) VALUES (NULL, '1111', '222245', '33333', 0, 'November 10, 2020, 7:39 pm')
+787878565656aaaaaaaNovember 10, 2020, 9:31 pmINSERT INTO tasks (id, username, email, task, fulfilled_status, created_at) VALUES (NULL, '787878', '565656', 'aaaaaaa', 0, 'November 10, 2020, 9:31 pm')
+343434555511111November 11, 2020, 12:30 amINSERT INTO tasks (id, username, email, task, fulfilled_status, created_at) VALUES (NULL, '343434', '5555', '11111', 0, 'November 11, 2020, 12:30 am')
+
+
+
+1
+1
+1
+1
+Array

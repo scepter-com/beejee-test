@@ -2,7 +2,203 @@ body
 {
     padding: 32px;
     margin: 0;
-    background: #282828;
-    color: #ffffff;
-    font-family: 'Inconsolata', monospace;
+    background-color: #282828 !important;
+    color: #ffffff !important;
+    font-family: 'Inconsolata', monospace; !important;
+}
+a
+{
+    text-decoration: none;
+}
+a:hover
+{
+    text-decoration: underline;
+}
+.header-bj-user-status {
+    float: right;
+    font-size: 14px;
+    margin-top: 16px;
+    margin-right: 16px;
+    color: rgba(255, 255, 255, 0.56);
+}
+.bj-content
+{
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+}
+.bj-send-button
+{
+    background: #ffa81c;
+    background: -moz-linear-gradient(45deg,  #ffa81c 0%, #ff2667 98%);
+    background: -webkit-linear-gradient(45deg,  #ffa81c 0%,#ff2667 98%);
+    background: linear-gradient(45deg,  #ffa81c 0%,#ff2667 98%);
+    filter: progid:DXImageTransform.Microsoft.gradient(
+            startColorstr='#ffa81c',
+            endColorstr='#ff2667',
+            GradientType=1);
+    border: none !important;
+}
+.bj-form
+{
+    border: 1px #151515 solid;
+    border-radius: 8px;
+    padding: 16px;
+    max-width: 850px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.separator
+{
+    width: 100%;
+    height: 1px;
+    background-color: #151515;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.task-col
+{
+    padding-top: 5px;
+    padding-bottom: 5px;
+
+}
+.username-col
+{
+
+}
+.email-col
+{
+
+}
+.task-id-col
+{
+
+}
+.task-text-col
+{
+
+}
+.task
+{
+
+}
+.fulfill-status-col
+{
+    display: flex;
+}
+.created-at-col
+{
+    color: #737373;
+    font-size: 0.9em;
+}
+.updated-at-col
+{
+    color: #737373;
+    font-size: 0.9em;
+}
+.task-paragraph
+{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 10px;
+    /* padding: 10px 18px; */
+    border: 1px #2f2f2f solid;
+    background: #ffffff;
+    border-radius: 6px;
+    color: #252525;
+}
+.pagination_block
+{
+    max-width: 850px;
+    margin: 7px auto;
+}
+.pages_collection
+{
+    display: flex;
+    width: 100%;
+}
+.page_item
+{
+    width: 35px;
+    height: 35px;
+    text-align: center;
+    color: #ffaa2a;
+    border: 1px #202020 solid;
+    border-radius: 5px;
+    font-size: 22px;
+    margin-left: 5px;
+}
+
+.bj-login-page-button
+{
+    background: #ed559e;
+    background: -moz-linear-gradient(45deg,  #ed559e 0%, #cb64ea 100%);
+    background: -webkit-linear-gradient(45deg,  #ed559e 0%,#cb64ea 100%);
+    background: linear-gradient(45deg,  #ed559e 0%,#cb64ea 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ed559e', endColorstr='#cb64ea',GradientType=1 );
+    margin: 8px 16px;
+    border: none !important;
+}
+.bj-home-page-button
+{
+    background: #44bfaa;
+    background: -moz-linear-gradient(45deg,  #44bfaa 0%, #2a79d3 100%);
+    background: -webkit-linear-gradient(45deg,  #44bfaa 0%,#2a79d3 100%);
+    background: linear-gradient(45deg,  #44bfaa 0%,#2a79d3 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#44bfaa', endColorstr='#2a79d3',GradientType=1 );
+    margin: 8px 16px;
+    border: none !important;
+}
+.bj-header {
+    width: 100%;
+    position: fixed;
+    margin: -32px;
+    background: rgba(0,0,0,0.34);
+    -webkit-backdrop-filter: saturate(180%) blur(20px);
+    backdrop-filter: saturate(180%) blur(20px);
+    z-index: 100;
+}
+.update-task-button
+{
+    float: right !important;
+    margin: 5px 0px !important;
+    font-size: 12px !important;
+}
+.update-fulfill-status-button
+{
+    float: right !important;
+    margin: 5px 0px !important;
+    font-size: 12px !important;
+    background: #2f9d55;
+    background: -moz-linear-gradient(45deg,  #8f9b43 0%, #2f9d55 100%);
+    background: -webkit-linear-gradient(45deg,  #8f9b43 0%,#2f9d55 100%);
+    background: linear-gradient(45deg, #8f9b43 0%, #2f9d55 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#8f9b43', endColorstr='#2f9d55',GradientType=1 );
+
+}
+.ff-select
+{
+    margin-right: 5px;
+}
+.ff-status-adm
+{
+    color: #ffa07f;
+    font-size: 12px;
+}
+.filter-menu
+{
+    border: 1px #6b6b6b solid;
+    border-radius: 12px;
+    overflow: hidden;
+    text-align: center;
+    width: 245px;
+}
+.filter-item
+{
+    color: #afafaf;
+    text-decoration: none;
+    font-size: 12px;
+    padding: 2px 16px;
+    border-bottom: 1px #818181 solid;
 }

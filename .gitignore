@@ -1,1 +1,3 @@
-Application/config.php
+.idea
+.gitignore
+Application/DataBase/db_config.php

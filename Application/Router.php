@@ -2,42 +2,22 @@
 
 namespace Application;
 
-class Router implements IInitializable
+class Router
 {
-    private static $instance;
-    private $config;
 
     protected function __construct() { }
 
-    public function initialize()
-    {
-        $this->config = require_once 'config.php';
-    }
-
-    public static function getRouter() : Router
-    {
-        if(!isset(self::$instance))
-        {
-            self::$instance = new static();
-            self::$instance->initialize();
-        }
-        return self::$instance;
-    }
-
     public static function execute()
     {
+
         $request_uri = $_SERVER['REQUEST_URI'];
         $uri = trim($request_uri, '/');
-        $controller = 'home';
-        $action = 'index';
-        $params = '';
-        list($main_uri, $params) = explode('?', $uri);
-
+        $filter = array("<", ">", ";", ":", "*", ",");
+        $uri = str_replace($filter, '', $uri);
+        list($main_uri, $params) = explode('@', $uri);
         !empty($params) ? $with_params = true : $with_params = false;
-
-        echo $with_params . '<br>';
-        echo $main_uri . '<br>';
-        echo $params . '<br>';
+        $method = 'POST';
+        isset($_POST) ? $method = 'POST' : $method = 'GET';
 
         if($with_params)
         {
@@ -45,61 +25,61 @@ class Router implements IInitializable
             $parameters = array();
             foreach ($temp_parameters as $p)
             {
-                $p = stristr($p, '=');
-                $p = trim($p, '=');
-                $parameters[] = $p;
-                echo $p . '<br>';
-            }
+                $p = explode('=', $p);
+                $parameters[$p[0]] = $p[1];
 
-            list($controller, $action) = explode('/', $uri);
-            echo '<br>';
-            echo '<br>';
-            echo $controller . '<br>';
-            echo $action . '<br>';
-            $path = 'Application\Controllers\\'.ucfirst($controller).'Controller';
-            if(class_exists($path))
-            {
-                $class = new $path;
-                if(method_exists($path, $action))
-                {
-                    $class->$action($parameters);
-                }
-                else
-                {
-                    echo 'Method not found';
-                }
             }
-            else
-            {
-                echo '!class ex';
-            }
+            self::executeURI($main_uri, $parameters, $method);
 
         }
         else
         {
-            echo '!withParam';
+            $parameters = array();
+            $parameters['GET'] = '';
+            $parameters['POST'] = '';
+            self::executeURI($main_uri, $parameters, $method);
         }
-
-
-
-
-
-        /*foreach (self::$instance->routes as $pattern => $callback)
-        {
-
-            if (preg_match($pattern, $url, $params)) // сравнение идет через регулярное выражение
-            {
-                // соответствие найдено, поэтому удаляем первый элемент из массива $params
-                // который содержит всю найденную строку
-                array_shift($params);
-                return call_user_func_array($callback, array_values($params));
-            }
-        }*/
     }
 
-    private function formatParameters()
-    {
 
+    private static function executeURI($uri, $parameters, $method)
+    {
+        if($method == 'POST')
+        {
+            $parameters['POST'] = $_POST;
+            $_POST = null;
+        }
+        else if($method == 'GET')
+        {
+            $parameters['GET'] = $_GET;
+            $_GET = null;
+        }
+
+        $parameters['admin'] = Context::context()->gate->getAdmin();
+        list($controller, $action) = explode('/', $uri);
+        empty($controller) ? $controller = 'home' : $controller = $controller;
+        empty($action) ? $action = 'index' : $action = $action;
+        $class_path = 'Application\Controllers\\'.ucfirst($controller).'Controller';
+        $file_path ='Application/Controllers/'.ucfirst($controller).'Controller.php';
+
+
+        if(file_exists($file_path))
+        {
+
+            $class = new $class_path;
+            if(method_exists($class_path, $action))
+            {
+                $class->$action($parameters);
+            }
+            else
+            {
+                View::error('Action not found', '404');
+            }
+        }
+        else
+        {
+            View::error('Class not found', '404');;
+        }
     }
 
 

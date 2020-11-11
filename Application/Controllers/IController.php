@@ -6,5 +6,8 @@ namespace Application\Controllers;
 
 interface IController
 {
-    function index();
+
+    function index($data);
+
+
 }

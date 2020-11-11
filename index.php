@@ -1,7 +1,8 @@
 <?php
 
+use Application\Context;
 use Application\Router;
-require_once 'Resources/layouts/default_layout.php';
+
 spl_autoload_register(function($class)
 {
     $path = '';
@@ -19,19 +20,14 @@ spl_autoload_register(function($class)
     }
     catch (Exception $e)
     {
-        throw new Exception("Невозможно загрузить $class.");
+        throw new Exception("Невозможно загрузить $class.  " . $e);
     }
-
 });
 
-$router = Router::getRouter();
+$context = Context::context();
 Router::execute();
 
 
-/*
-list($folder, $controller, $action) = preg_split('/', $request_uri);
-
-*/
 
 
 
